@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.my-input {
+		@apply border w-full bg-[#f6f6f6] border-black/10 rounded-md outline-none py-1.5 px-2;
+	}
+}
+
+
+
+button[disabled],
+a[disabled="true"],
+.disabled {
+	pointer-events: none;
+	opacity: 0.6;
+}
